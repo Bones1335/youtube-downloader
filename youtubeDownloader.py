@@ -12,5 +12,6 @@ def Download(link):
         print("There has been an error in downloading your youtube video.")
     print("Success! Your video has been downloaded!")
 
-link = input("Put your YouTube link here!! URL: ") 
+link = input("Put your YouTube link here!! URL: ")
+print("Test")
 Download(link)
