@@ -20,7 +20,7 @@ while True:
     link = pc.paste()
     
     if LINK_CHECK not in link:
-        link = input("You haven't provided a YouTube link. Please try again: ")
+        input("You haven't provided a YouTube link. Please try again: ")
     else:
         Download(link)
         break
