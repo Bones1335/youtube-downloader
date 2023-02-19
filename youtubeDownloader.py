@@ -13,7 +13,7 @@ def Download(link):
         print("There has been an error in downloading your youtube video.")
     print("Success! Your video has been downloaded!")
 
-print("Put your YouTube link here!! URL: ")
+print("Pulling your YouTube link from the clipboard...")
 link = pc.paste()
 
 Download(link)
