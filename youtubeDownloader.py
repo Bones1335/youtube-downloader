@@ -2,6 +2,7 @@
 # youtubeDownloader.py - Download YouTube videos with URL
 
 from pytube import YouTube
+import pyperclip as pc
 
 def Download(link):
     youtubeObject = YouTube(link)
@@ -12,6 +13,7 @@ def Download(link):
         print("There has been an error in downloading your youtube video.")
     print("Success! Your video has been downloaded!")
 
-link = input("Put your YouTube link here!! URL: ")
-print("Test")
+print("Put your YouTube link here!! URL: ")
+link = pc.paste()
+
 Download(link)
